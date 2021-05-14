@@ -64,8 +64,13 @@ body {
     margin: 10px auto;
 }
 button {
+    width: 5%;
     margin: 1em 0 0 0 ;
     transition: 80ms all;
+    background: lightgray;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 button:hover {
     transform: scale(1.2);

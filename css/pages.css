@@ -1,0 +1,41 @@
+body {
+    background: radial-gradient(#CCCCCC,#DDDDDD,#FEFEFE);
+    font-family: 'Montserrat', sans-serif;
+}
+header h1 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+header img {
+    width: 300px;
+}
+main p {
+    font-size: 20px;
+}
+main p::first-letter {
+    font-weight: bold;
+    font-size: 25px;
+}
+button a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+footer button {
+    width: 15%;
+    margin: 0 0 0 25px;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 200ms all;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
