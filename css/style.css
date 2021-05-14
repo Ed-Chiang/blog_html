@@ -1,3 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(25deg,#DDDDDD,white,#FEFEFE,#888888);
+}
+.topo h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.topo p {
+    font-size: 22px;
+}
+.lista-a {
+    margin: 2em auto;
+}
+.lista-a h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.lista-a a{
+    color: black;
+    text-decoration: none;
+    margin: 0 0 1em 0;
+    font-weight: bold;
+}
+.lista-a a:hover {
+    color: red;
+}
+.lista-a p {
+    font: 15px;
+}
+.lista-a img {
+    width: 200px;
+}
+.lista-c q {
+    font-weight: bold;
+}
+.lista-c blockquote:first-letter {
+    font-size: 25px;
+}
+.formulario label,input {
+    margin: 10px auto;
+}
+button {
+    margin: 1em 0 0 0 ;
+}
+footer {
+    padding: 5em 0;
+    background: url("../imagens/bg.jp");
+}
+.rodape a {
+    color: black;
+    text-decoration: none;
+}
+.rodape p {
+    font-size: 25px;
+    color: black;
+    margin: 0 0 1em 0;
+}
+.rodape a:hover {
+    color: red;
+    font-size: 20px;
+}
 .rodape li {
     display: inline-block;
     margin: 0 1em 0 0;

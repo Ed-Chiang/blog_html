@@ -4,52 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>Blog sobre linguagens de Programação</title>
 </head>
 <body>
-    <div>
+    <div class="topo">
         <header><h1>Blog sobre Linguagens de Programação</h1></header>
         
-        <p>Neste blog vou escrever artigos relacionados a linguagens de Programação que utilizo no dia a dia do meu trabalho</p>
+        <p>Neste blog vou escrever artigos relacionados a <strong>linguagens de Programação</strong> que utilizo no dia a dia do meu trabalho</p>
         
         <p>Veja a lista de posts do meu blog:</p>
     </div>
-    <ul>
+
+    <ul class="lista-d">
         <li>O que é Javascript?</li>
         <li>PHP é a melhor linguagem para começar?</li>
         <li>Python, a melhor linguagem para Data Science</li>
     </ul>
-    <div class="Lista-a">
-        <section>
-            <h2>O que é Javascript</h2>
-            <img src="./imagens/javascript1.png" alt="JavaScript">
-            <p>JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.Javascript é uma linguagem...</p>
-            <a href="./pages/javascript.html">leia mais</a>
-        </section>
-        <section>
-            <h2>PHP é a melhor linguagem para começar?</h2>
-            <img src="./imagens/php1.png" alt="PHP">
-            <p>Essa é uma pergunta recorrente para os iniciantes no mundo do desenvolvimento web. Por PHP ser uma linguagem muito popular, muitos iniciantes pensam em começar a estudar por ela mas...</p>
-            <a href="./pages/php.html">leia mais</a>
-        </section>
-        <section>
-            <h2>Python</h2>
-            <img src="./imagens/python1.png" alt="Python">
-            <p>Não há dúvidas que Python é a melhor linguagem para se trabalhar com Ciencia de Dados, pois existem dezenas de bibliotecas preparadas para estatistica e machine learning criadas com a linguagem...
-            </p>
-            <a href="./pages/python.html">leia mais</a>
-        </section>
-    </div>
-    <div class="lista-b">
-        <h2>Linguagens mais Populares:</h2>
-        <ol>
-            <li>PHP</li>
-            <li>Javascript</li>
-            <li>Python</li>
-        </ol>
-    </div>
+    <main>
+        <div class="lista-a">
+            <section>
+                <h2>O que é Javascript</h2>
+                <img src="./imagens/javascript1.png" alt="JavaScript">
+                <p>JavaScript é uma linguagem de programação de alto nível criada, a princípio, para ser executada em navegadores e manipular comportamentos de páginas web.Javascript é uma linguagem...</p>
+                <a href="./pages/javascript.html">leia mais</a>
+            </section>
+            <section>
+                <h2>PHP é a melhor linguagem para começar?</h2>
+                <img src="./imagens/php1.png" alt="PHP">
+                <p>Essa é uma pergunta recorrente para os iniciantes no mundo do desenvolvimento web. Por PHP ser uma linguagem muito popular, muitos iniciantes pensam em começar a estudar por ela mas...</p>
+                <a href="./pages/php.html">leia mais</a>
+            </section>
+            <section>
+                <h2>Python</h2>
+                <img src="./imagens/python1.png" alt="Python">
+                <p>Não há dúvidas que Python é a melhor linguagem para se trabalhar com Ciencia de Dados, pois existem dezenas de bibliotecas preparadas para estatistica e machine learning criadas com a linguagem...
+                </p>
+                <a href="./pages/python.html">leia mais</a>
+            </section>
+        </div>
+
+        <div class="lista-b">
+            <h2>Linguagens mais Populares:</h2>
+            <ol>
+                <li>PHP</li>
+                <li>Javascript</li>
+                <li>Python</li>
+            </ol>
+        </div>
+    </main>
     <div class="lista-c">
         <h3>Veja o que os desenvolvedores estao dizendo:</h3>
 
@@ -62,28 +67,31 @@
         <q>Adoro Python, mas as Najas sao mais bonitas</q>
         <blockquote>Richard Rasmussen, sobre Python</blockquote>
     </div>
-    <h3>Se você quiser, entre em contato pelo formulário abaixo:</h3>
+
     <div class="formulario">
-        <form action="">
+        <h3>Se você quiser, entre em contato pelo formulário abaixo:</h3>
+        <form action="submit">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" placeholder="Seu Nome" required>
-
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="Seu Email" required>
-
-            <textarea name="mensagem:" id="mensagem" cols="15" rows="5" required></textarea>
-
+            <br>
+            <textarea name="mensagem:" id="mensagem" cols="35" rows="5" required></textarea>
+            <br>
             <label for="newsletter">Deseja receber nosso newsletter ?</label>
-            <input type="checkbox" name="newsletter" id="newsletter">
-
-            <label for="radio" >Você gostou dessa página:</label>
-            Sim <input type="radio" name="radio">
+            <input type="checkbox" name="newsletter" id="newsletter" checked>
+            <br>
+            <label for="radio" >Você gostou dessa página</label>
+            Sim <input type="radio" name="radio" checked>
             Não <input type="radio" name="radio">
-
+            <br>
             <button>Enviar</button>
         </form>
     </div>
+
     <footer class="rodape">
+
         <p>Siga-nos nas nossas mídias sociais</p>
         <ul>
             <li><a href="https://Instagram.com/douglascorrea.io" target="_blank">Instagram</a></li>
